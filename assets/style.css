@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'poppins';
+}
+
+.header{
+    color: rgb(68, 68, 68);
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    width: 50%;
+    border-radius: 100px;
+}
+
+.input_bar{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#input_new{
+    font-size: 15.5px;
+    font-weight: 500;
+    border-style: double;
+    width: 700px;
+    padding-left: 20px;
+    transition: 500ms;
+    border-radius: 2px;
+    /* border-radius: 5px; */
+}
+
+#input_new:focus{
+    background-color: #7c7c81;
+    color: white;
+    opacity: 75%;
+}
+
+#input_new:focus::placeholder{
+    color: white;
+}
+
+#submit_input{
+    border: none;
+    background-color: rgb(117, 117, 117);
+    color: white;
+    font-weight: bold;
+    outline: none;
+    transition: 250ms;
+    padding-inline: 12px;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+#submit_input:focus{
+    border-radius: 5px;
+}
+
+#submit_input:hover{
+    background-color: rgb(68, 68, 68);
+}
+
+/* done */
+.container{
+    margin-inline: auto;
+    width: fit-content;
+}
+
+.card_done{ 
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-block: 20px;
+}
+
+.card_done > h4{
+    font-weight: 600;
+    justify-content: start;
+}
+
+.content_done{
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    width: 750px;
+    background-color: rgb(231, 231, 231);
+}
+
+.button_done{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5px;
+}
+
+.button_done > p{
+    align-self: center;
+    display: flex;
+    color: black;
+    font-weight: 300;
+}
+
+.remove_task{
+    background-color: #434450;
+    display: flex;
+    align-self: center;
+    padding: 0 15px 0 15px;
+    border: none;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    font-weight: bold;
+    transition: 250ms;
+}
+
+.remove_task:hover{
+    background-color: #24242e;
+}
+
+/* not */
+.card_not{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.content_not{
+    /* margin-block: 20px; */
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    width: 750px;
+    background-color: rgb(231, 231, 231);
+}
+
+.button_not {
+    padding-inline: 5px;
+}
+
+.button_not > div{
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_task{
+    background-color: #434450;
+    padding: 0 26.75px 0 26.75px;
+    border: none;   
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    font-weight: bold;
+    transition: 250ms;
+}
+
+.add_task:hover{
+    background-color: #24242e;
+}
+
+/* Clear */
+.button_clear{
+    margin-block: 20px;
+}
+
+.clear{
+    border: none;
+    padding: 15px 0 15px 0;
+    background-color: red;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 4px;
+    padding-inline: 20px;
+    transition: 250ms;
+}
+
+.clear:hover{
+    background-color: rgb(167, 0, 0);
+}
+
