@@ -93,6 +93,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-inline: 5px;
+    padding-block: 10px;
 }
 
 .button_done > p{
